@@ -1,0 +1,328 @@
+:root {
+  --main-color: #8716a9;
+  --secondary-color: #ffe100;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* small  */
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* medium*/
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* large */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 600px;
+  }
+}
+
+  /* start header */
+ /* start header */
+/* start header */
+.header {
+  
+ background-color:#640b7f;
+ 
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+ 
+  
+}
+
+
+ 
+.header img {
+width: 70px;
+
+}
+
+ 
+
+.header .container .name{
+
+ 
+color: #ffffff;
+
+}
+
+.header .container .name span{
+
+ color: var(--secondary-color);
+
+}
+
+@media (max-width: 768px){
+.header {
+  
+ background-color:#640b7f;
+ height: 50px;
+ padding-bottom: 20px;
+ padding-top: -200px;
+ margin-top: 0px;
+}
+
+.header img {
+width: 60px;
+
+}
+
+
+.header .container .name{
+
+ font-size: 14px;
+color: #ffffff;
+
+}
+}
+
+@media ( min-width: 1200px) {
+
+  .header .container {
+    width: 1200px;
+  }
+
+}
+
+
+ 
+
+
+
+  /* start  profile */
+ /* start  profile */
+/* start  profile */
+
+.profile {
+
+ background-color: var(--main-color);
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+      padding-bottom: 20px;
+}
+
+.profile .image img {
+
+    width: 200px;
+    border-radius: 50%;
+
+
+}
+
+.profile .text{
+    padding-top: 10px;
+font-size: 20px;
+line-height: .5;
+
+}
+
+.profile .text span {
+ 
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.profile .icon {
+padding-top: 20px;
+     word-spacing: 15px;
+}
+
+.profile .icon i{
+
+font-size: 30px;
+color:  #fff;
+
+}
+
+.profile .icon i:hover{
+
+font-size: 40px;
+color:  var(--secondary-color);
+
+}
+
+  /* start   contant */
+/* start   contant */
+/* start   contant */
+
+.contant{
+
+    padding-left: 100px;
+    padding-top: 30px;
+    
+background-color: var(--main-color);
+ 
+text-align: center;
+padding-bottom: 48px;
+
+}
+
+.contant a {
+
+     width: 100%;
+font-size: 25px;
+color: #ffffff;
+    text-decoration: none;
+ 
+  
+}
+
+ 
+ 
+.contant .col span {
+    display: none;
+}
+
+.contant .col{
+    
+ height: 50px;
+    width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: #ffffff 2px solid;
+ border-radius: 100px;
+  
+}
+
+ 
+
+.contant .col:hover span {
+    display:  inline;
+    color: var(--secondary-color);
+}
+
+.contant .col:hover{
+    
+ height: 50px;
+    width: 110%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: #ffffff 2px solid;
+ border-radius: 100px;
+  
+}
+
+.contant .col:hover i {
+
+ 
+color:  var(--secondary-color);
+     
+ 
+  
+}
+
+@media (min-width: 1000px){
+.contant .col{
+    
+ height: 50px;
+    width: 85%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: #ffffff 2px solid;
+ border-radius: 100px;
+  
+ 
+}
+
+.contant a {
+
+     width: 100%;
+font-size: 20px;
+color: #ffffff;
+    text-decoration: none;
+ 
+  
+}
+
+.contant .col:hover{
+    
+ height: 50px;
+    width: 95%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: #ffffff 2px solid;
+ border-radius: 100px;
+  
+}
+
+
+}
+
+@media (max-width: 777px){
+.contant .col{
+    
+ height: 50px;
+    width: 90%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: #ffffff 2px solid;
+ border-radius: 100px;
+  
+}
+
+.contant a {
+
+     width: 100%;
+font-size: 15px;
+color: #ffffff;
+    text-decoration: none;
+ 
+  
+}
+.contant .col:hover{
+    
+ height: 50px;
+    width: 95%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: #ffffff 2px solid;
+ border-radius: 100px;
+  
+}
+
+.contant .col:hover span {
+    display:   none;
+    color: var(--secondary-color);
+}
+
+
+}
