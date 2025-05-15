@@ -254,7 +254,7 @@ color:  var(--secondary-color);
   
 }
 
-@media (min-width: 1000px){
+@media (min-width: 500px){
 
     .contant{
 
@@ -305,17 +305,17 @@ color: #ffffff;
 
 }
 
-@media (max-width: 777px){
+@media (max-width: 500px){
 
     .contant{
-
-    
-    padding-top: 30px;
+margin-left: -70px;
+    width: 470px;
+ 
     
 background-color: var(--main-color);
  
 text-align: center;
-padding-bottom: 48px;
+padding-bottom: 150px;
 
 }
 
@@ -333,7 +333,7 @@ padding-bottom: 48px;
 
 .contant a {
 
-     width: 100%;
+      
 font-size: 15px;
 color: #ffffff;
     text-decoration: none;
