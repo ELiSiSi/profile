@@ -23,12 +23,11 @@ body {
   margin-left: auto;
 }
 
-@media (min-width: 300px) {
+ @media (max-width: 300px) {
   .container {
     width: 360px;
   }
 }
-
 
 /* small  */
 
@@ -156,7 +155,7 @@ body {
 /* start   contant */
 
 .contant {
-  padding-left: 100px;
+ 
   padding-top: 50px;
 
   background-color: var(--main-color);
