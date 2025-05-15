@@ -145,8 +145,16 @@ color: #ffffff;
 .profile .text{
     padding-top: 10px;
 font-size: 20px;
-line-height: .5;
+line-height: .1;
 
+}
+@media (min-width: 768px) {
+ .profile .text p {
+    padding-top: 10px;
+font-size: 15px;
+line-height: .1;
+
+}
 }
 
 .profile .text span {
@@ -175,7 +183,7 @@ color:  var(--secondary-color);
 }
 
   /* start   contant */
-/* start   contant */
+ /* start   contant */
 /* start   contant */
 
 .contant{
@@ -247,6 +255,18 @@ color:  var(--secondary-color);
 }
 
 @media (min-width: 1000px){
+
+    .contant{
+
+  
+    padding-top: 30px;
+    
+background-color: var(--main-color);
+ 
+text-align: center;
+padding-bottom: 48px;
+
+}
 .contant .col{
     
  height: 50px;
@@ -286,10 +306,23 @@ color: #ffffff;
 }
 
 @media (max-width: 777px){
+
+    .contant{
+
+    
+    padding-top: 30px;
+    
+background-color: var(--main-color);
+ 
+text-align: center;
+padding-bottom: 48px;
+
+}
+
 .contant .col{
     
  height: 50px;
-    width: 90%;
+    width: 100%;
  display: flex;
  justify-content: center;
  align-items: center;
