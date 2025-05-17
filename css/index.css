@@ -1,5 +1,5 @@
 :root {
-  --main-color: #8716a9;
+  --main-color: #ff2600;
   --secondary-color: #ffe100;
 }
 
@@ -17,47 +17,48 @@ body {
   width: 100%;
 }
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 90%;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  /* margin-right: auto; */
+  margin: auto;
 }
 
  @media (max-width: 300px) {
-  .container {
+  /* .container {
     width: 360px;
-  }
+  } */
 }
 
 /* small  */
 
 @media (min-width: 768px) {
-  .container {
+  /* .container {
     width: 750px;
-  }
+  } */
 }
 
 /* medium*/
 
 @media (min-width: 992px) {
-  .container {
+  /* .container {
     width: 970px;
-  }
+  } */
 }
 
 /* large */
 
 @media (min-width: 1200px) {
-  .container {
+  /* .container {
     width: 900px;
-  }
+  } */
 }
 
 /* start header */
 /* start header */
 /* start header */
 .header {
-  background-color: #640b7f;
+  background-color: #ffffff;
 }
 
 .header .container {
@@ -68,11 +69,31 @@ body {
 }
 
 .header img {
-  width: 70px;
+  width: 110px;
+  margin: 0px;
+  padding: 0px;
+
+  animation-name: thebest;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes thebest {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 20px 0;
+  }
+
+  100% {
+    translate: 0 0;
+  }
 }
 
 .header .container .name {
-  color: #ffffff;
+  color: #ff0000;
 }
 
 .header .container .name span {
@@ -81,7 +102,7 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    background-color: #640b7f;
+       background-color: #fff;
     height: 50px;
     padding-bottom: 20px;
     padding-top: -200px;
@@ -89,12 +110,12 @@ body {
   }
 
   .header img {
-    width: 60px;
+    width: 40px;
   }
 
   .header .container .name {
     font-size: 14px;
-    color: #ffffff;
+     color: var(--main-color);
   }
 }
 
@@ -215,7 +236,8 @@ body {
   }
   .contant .col {
     height: 50px;
-    width: 85%;
+    width: 65%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,7 +254,7 @@ body {
 
   .contant .col:hover {
     height: 50px;
-    width: 95%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
